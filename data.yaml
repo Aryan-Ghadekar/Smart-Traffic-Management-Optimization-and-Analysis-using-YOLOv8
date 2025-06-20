@@ -1,0 +1,13 @@
+# path: /home/user93/ASEP_ambulance
+test: /home/user93/ASEP_ambulance/test/images
+train: /home/user93/ASEP_ambulance/train/images
+val: /home/user93/ASEP_ambulance/valid/images
+nc: 8  # Number of classes (update based on actual dataset)
+names: ["ambulance", "car", "bus", "truck", "bike", "auto_rickshaw","van","pedestrian"]
+
+# roboflow:
+#   workspace: asep-project
+#   project: vehicle-classification
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/asep-project/vehicle-classification/dataset/1
